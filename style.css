@@ -1,19 +1,47 @@
 body {
     background-color: blueviolet;
 }
+* {
+  font-family: 'Sriracha', cursive;
+}
+a {
+ text-decoration: none;
+}
 h1 {
-    color: black;
     text-align: center;
 }
 h2 {
     color: white;
     text-align: center;
 }
-.heading {
-    background-color: yellow;
-    height: 100px; 
+p {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 550;
+}
+#headingContainer {
+ max-height: 500px;
+ overflow: hidden;
+ position: relative; 
+}
+#heading {
+    background-color: none; 
+    height: auto; 
+    width: 100%;
     text-align: center;
-    padding-top: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 90%;
+    right: 2%;
+    transform: translateY(-50%);
+    color: white;
+    
+}
+#bannerPhoto {
+  height: auto;
+  width: 100%;
+  z-index: -1;
+  background-image: url(images/GhostsOfTsushima.jpg);
+  filter: saturate(125%) drop-shadow(16px 16px 20px black);
 }
 .aboutMe {
     background-color: black;
@@ -24,6 +52,7 @@ h2 {
 .topnav {
     background-color: #333;
     overflow: hidden;
+    position: relative;
   }
   
   /* Style the links inside the navigation bar */
