@@ -33,8 +33,7 @@ p {
     top: 90%;
     right: 2%;
     transform: translateY(-50%);
-    color: white;
-    
+    color: white;   
 }
 #bannerPhoto {
   height: auto;
